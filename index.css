@@ -1,6 +1,27 @@
-/*nikal lavde*/
 body {
   margin:0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+#Login{
+  background-color:#f1f1f1 ;
+  
+}
+#Login {
+  color:#000000;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
+  position: absolute;
+  left: 1400px;
+  top: 0px;
+  height:41.2px;
+  margin-top:15px;
+}
+#Login a{
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom:auto;
+  padding:0px;
 }
 .navbar {
   position: absolute;
@@ -16,13 +37,16 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    height:60px;
+    height:67px;
     background-color: #000000;
     border-radius: 0px 0px 5px 5px;
   }
   
   li {
     float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
   }
   
   li a, .dropbtn {
@@ -35,7 +59,7 @@ ul {
   
   li a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(57, 54, 54);
-    border-radius: 20px;
+    border-radius: 3px;
   }
   
   li.dropdown {
