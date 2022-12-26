@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BackRoadAI</title>
+    <link href="signin.css" rel="stylesheet">
+    <script src="signin.js"></script>
+  </head>
+  
+  <body class="text-center">
+    <h2>BackRoadAI</h2>
+    <div class="container" id="container">
+        <div class="form-container sign-in-container">
+            <form name = "Login" action="#">
+                <h1>Sign in</h1>
+                <input name="id" type="username" placeholder="Username" />
+                <input name="pass" type="password" placeholder="Password" />
+                <a href="#">Forgot your password?</a>
+                <!-- <button>Sign In</button> -->
+                <input value="Sign In" onclick="pasuser(this.form)" type="button">
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-right">
+                    <h1>Welcome Back!</h1>
+                    <p>Keep track of your Truck's health! </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>
