@@ -24,6 +24,10 @@ body {
   margin-bottom:auto;
   padding:0px;
 }
+#Login:hover{
+  
+}
+
 .navbar {
 position: absolute;
 width: 100%;
@@ -37,7 +41,7 @@ filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.33));
 
 .company{
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: large;
+font-size: ;
 
 }
 
